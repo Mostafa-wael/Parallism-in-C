@@ -1,5 +1,8 @@
 # Parallism in C 
-- in this repository we will show the parallel version of the two given code snippets using pthreads, openMP, MPI and both MPI and openMP.
+- In this repository we will show the parallel versions of the two given code snippets using pthreads, openMP, MPI and both MPI and openMP.
+
+![image](https://user-images.githubusercontent.com/56788883/124506747-9ce12600-ddcc-11eb-819b-33d22665581d.png)
+
 
 ---
 code1:

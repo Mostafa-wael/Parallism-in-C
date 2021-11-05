@@ -5,27 +5,21 @@
 
 
 ---
-code1:
-
-`i=0;`
-
-`while(i <= n)
+### Code I:
+```
+i=0;
+while(i <= n)
 {
     A[i] += f(i);  
     i++;
-}`
+}
+```
 
----
-code2:
-
-`for(int i = 0; i < n; i++)
-`
-
-`for(int j = 0; j < n; j++)
-`
-
-`A[i] += g(j,i);
-`
----
+### Code II:
+```
+for(int i = 0; i < n; i++)
+    for(int j = 0; j < n; j++)
+        A[i] += g(j,i);
+```
 
   
